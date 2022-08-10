@@ -28,13 +28,14 @@ ul {
 
 .heading {
 	font-weight: bold;
+	margin-right: 10px;
 }
 
 
 
 /* About-me Section  */
 
-#about-me {
+.about {
 	display:flex;
 	background-color: #59A9B5;
 	margin: 3% 15% ;
@@ -46,15 +47,15 @@ ul {
 
 /* Education Section  */
 
-#education {
+.institute {
 	background-color: #59A9B5;
-	margin: 3% 8% ;
+	margin: 3% 7% ;
 	padding: 20px;
 	border-radius:  20px;
 }
 
 .sect {
-	font-size: 20px;
+	font-size: 18px;
 	text-align: left;
 	margin-top: 10px;
 }
@@ -67,7 +68,7 @@ ul {
 
 /* Skills Section  */
 
-.skill-image {
+.ability {
 	height: 120px;
 	width: 120px;
 	margin-right: 10px;
@@ -78,7 +79,7 @@ ul {
 
 /* Projects Section  */
 
-#projects {
+.works {
 	background-color: #59A9B5;
 	margin: 0;
 	padding: 20px;
@@ -86,17 +87,20 @@ ul {
 
 /* Achievements Section  */
 
-#achievements{
+.accomplishments {
 	margin: 0;
 	padding: 1px 0;
 }
 
 /* Interests Section  */
 
-#interests {
-	margin: 2% 5%;
-	padding: 2px 10px 0;
+.games {
+	height: 300px;
+	width: 300px;
+	margin: 2%;
 }
+
+/* Footer Section  */
 
 .contact {
 	margin: 5px 10px;
