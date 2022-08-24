@@ -105,3 +105,7 @@ ul {
 .contact {
 	margin: 5px 10px;
 }
+
+a {
+	text-decoration: none;
+}
